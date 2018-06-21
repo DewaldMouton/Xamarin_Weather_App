@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+  android:background="@android:color/white">
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="30dp"
+      android:layout_marginLeft="30dp"
+      android:text="City"
+      android:textColor="@android:color/black"/>
+  <EditText
+      android:id="@+id/editText"
+      android:layout_width="322dp"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="30dp"
+      android:ems="10"
+      android:inputType="textPersonName"
+      android:hint="Enter city name..."
+      android:layout_marginTop="8.0dp"
+  android:textColor="@android:color/black"/>
+  <Button
+    android:id="@+id/button"
+      android:layout_width="120dp"
+      android:textColor="#FFFFFF"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="30dp"
+      android:layout_marginLeft="30dp"
+      android:background="@drawable/ic_button_border"
+      android:textAllCaps="false"
+      android:text="Get Weather" />
+</LinearLayout>
